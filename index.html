@@ -2,129 +2,132 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neomo</title>
-    <link rel="stylesheet" href="assets/css/neomo.min.css">
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/neomo.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neomo</title>
+  <link rel="stylesheet" href="assets/css/neomo.min.css">
+  <link rel="stylesheet" href="assets/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/neomo.css">
 </head>
 
 <body>
-    <header>
-        <div class="container dark">
-            <ul class="nav">
-                <li><a class="nav-link nav-link--animation button outset-dark m-10" href="#">Link</a></li>
-                <li><a class="nav-link nav-link--animation button outset-dark m-10" href="#">Link</a></li>
-                <li><a class="nav-link nav-link--animation button outset-dark m-10" href="#">Link</a></li>
-                <li><a class="nav-link nav-link--animation button outset-dark m-10" href="#">Link</a></li>
-                <li><a class="nav-link nav-link--animation button outset-dark m-10" href="#">Link</a></li>
-            </ul>
-            <div class="icon-lg">
-                <i class="fa-brands fa-github"></i>
+  <header>
+    <div class="container dark">
+      <button class="collapse button outset-dark"><i class="fa-solid fa-bars"></i></button>
+      <ul class="nav">
+        <a class="nav-link nav-link--animation button outset-dark m-10" href="#">Link</a>
+        <a class="nav-link nav-link--animation button outset-dark m-10" href="#">Link</a>
+        <a class="nav-link nav-link--animation button outset-dark m-10" href="#">Link</a>
+        <a class="nav-link nav-link--animation button outset-dark m-10" href="#">Link</a>
+        <a class="nav-link nav-link--animation button outset-dark m-10" href="#">Link</a>
+      </ul>
+      <div class="icon-lg">
+        <i class="fa-brands fa-github"></i>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container dark">
+      <div class="tab-box">
+        <div class="tab vertical">
+          <div class="columns">
+            <div class="column size-4">
+              <ul class="tab-list">
+                <li><a id="tab-7" class="current">tab7</a></li>
+                <li><a id="tab-8">tab8</a></li>
+                <li><a id="tab-9">tab9</a></li>
+              </ul>
             </div>
-        </div>
-    </header>
-    <main>
-        <div class="container dark">
-            <div class="tab-box">
-                <div class="tab vertical">
-                    <div class="columns">
-                      <div class="column size-4">
-                        <ul class="tab-list">
-                          <li><a id="tab-7" class="current">tab7</a></li>
-                          <li><a id="tab-8">tab8</a></li>
-                          <li><a id="tab-9">tab9</a></li>
-                        </ul>
-                      </div>
-                      <div class="column size-8">
-                        <ul class="tab-content inset-dark">
-                          <li id="content-7" class="tab-content--list">
-                            <div class="tab-content--title">title7</div>
-                            <div class="tab-content--text">
-                              You can insert any type of content with this tab class.
-                            </div>
-                          </li>
-                          <li id="content-8" class="tab-content--list">
-                            <div class="tab-content--title">title8</div>
-                            <div class="tab-content--text">
-                              You can insert any type of content with this tab class.
-                            </div>
-                          </li>
-                          <li id="content-9" class="tab-content--list">
-                            <div class="tab-content--title">title9</div>
-                            <div class="tab-content--text">
-                              You can insert any type of content with this tab class.
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-block">
-                <button data-modal-id="modal1" class="modal-button outset-dark">MODAL Button</button>
-                <div data-modal-id="modal1" class="modal">
-                    <div class="modal-content--md outset-dark">
-                        <span class="modal-close">&times;</span>
-                        <p>You can insert any type of content with this modal class.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="btn-box ">
-                <button class="button outset-dark">
-                    <div class="loader border-gray point-blue"></div>
-                </button>
-                <button class="button outset-dark">
-                    <div class="loader border-gray point-orange"></div>
-                </button>
-                <button class="button outset-dark">
-                    <div class="loader border-gray point-purple"></div>
-                </button>
-                <button class="button outset-dark">
-                    <div class="loader border-gray point-blue"></div>
-                </button>
-                <button class="button outset-dark">
-                    <div class="loader border-gray point-orange"></div>
-                </button>
-            </div>
-            <div class="form-box columns just-center">
-                <div class="column size-5 text-center m-10">
-                    <div class="card outset-dark p-0">
-                      <div class="card-content">
-                        <div class="input-group outset-dark">
-                          <span class="input-group-left text-center"><i class="far fa-envelope" aria-hidden="true"></i></span>
-                          <input type="text" class="input-group-right font outset-dark" placeholder="Your Email">
-                        </div>
-                        <div class="mt-1 mr-3 ">
-                          <textarea class="textarea font outset-dark" cols="50" rows="10" placeholder="Message"></textarea>
-                        </div>
-                        <button class="button  medium mt-5 font font-size-3 outset-dark">Submit</button>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <ul class="pagination">
-                <li>
-                  <a href="#"><span class="fas fa-angle-double-left"></span></a>
+            <div class="column size-8">
+              <ul class="tab-content inset-dark">
+                <li id="content-7" class="tab-content--list">
+                  <div class="tab-content--title">title7</div>
+                  <div class="tab-content--text">
+                    You can insert any type of content with this tab class.
+                  </div>
                 </li>
-                <li><a href="#">1</a></li>
-                <li><a href="#" class="active">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#">6</a></li>
-                <li>
-                  <a href="#"><span class="fas fa-angle-double-right"></span></a>
+                <li id="content-8" class="tab-content--list">
+                  <div class="tab-content--title">title8</div>
+                  <div class="tab-content--text">
+                    You can insert any type of content with this tab class.
+                  </div>
                 </li>
-            </ul>
+                <li id="content-9" class="tab-content--list">
+                  <div class="tab-content--title">title9</div>
+                  <div class="tab-content--text">
+                    You can insert any type of content with this tab class.
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </main>
+      </div>
+      <div class=" modal-block">
+        <button data-modal-id="modal1" class="modal-button outset-dark">MODAL Button</button>
+        <div data-modal-id="modal1" class="modal">
+          <div class="modal-content--md outset-dark">
+            <span class="modal-close">&times;</span>
+            <p>You can insert any type of content with this modal class.</p>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box ">
+        <button class="button outset-dark">
+          <div class="loader border-gray point-blue"></div>
+        </button>
+        <button class="button outset-dark">
+          <div class="loader border-gray point-orange"></div>
+        </button>
+        <button class="button outset-dark">
+          <div class="loader border-gray point-purple"></div>
+        </button>
+        <button class="button outset-dark">
+          <div class="loader border-gray point-blue"></div>
+        </button>
+        <button class="button outset-dark">
+          <div class="loader border-gray point-orange"></div>
+        </button>
+      </div>
+      <div class="form-box columns just-center">
+        <div class="column size-5 text-center m-10">
+          <div class="card outset-dark p-0">
+            <div class="card-content">
+              <div class="input-group outset-dark">
+                <span class="input-group-left text-center"><i class="far fa-envelope" aria-hidden="true"></i></span>
+                <input type="text" class="input-group-right font outset-dark" placeholder="Your Email">
+              </div>
+              <div class="mt-1 mr-3 ">
+                <textarea class="textarea font outset-dark" cols="50" rows="10" placeholder="Message"></textarea>
+              </div>
+              <button class="button  medium mt-5 font font-size-3 outset-dark">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="pagination">
+        <li>
+          <a href="#"><span class="fas fa-angle-double-left"></span></a>
+        </li>
+        <li><a href="#">1</a></li>
+        <li><a href="#" class="active">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li>
+          <a href="#"><span class="fas fa-angle-double-right"></span></a>
+        </li>
+      </ul>
+    </div>
+  </main>
 
 
-    <script src="assets/js/neomo.min.js"></script>
-    <script src="assets/js/all.min.js"></script>
+  <script src="assets/js/neomo.min.js"></script>
+  <script src="assets/js/all.min.js"></script>
+  <script src="assets/js/jquery-3.6.3.min.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>

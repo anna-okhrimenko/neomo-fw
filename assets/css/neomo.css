@@ -1,11 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #464646;
+}
+
+.container {
+    padding: 0 10px;
 }
 
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+
+}
+
+.collapse {
+    min-width: 4rem;
+    min-height: 4rem;
+    display: none;
 }
 
 .btn-box {
@@ -33,4 +49,29 @@ ul.pagination {
     display: block;
     text-align: center;
     margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .collapse {
+        display: block;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        display: none;
+        top: 51px;
+        background-color: #464646;
+    }
+
+    .nav-link {
+        margin: 0 5px 7px 0;
+        
+    }
+
+    
 }
